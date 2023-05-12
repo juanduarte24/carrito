@@ -130,9 +130,7 @@ function cart(db, printProducts) {
             const id = +e.target.closest('.add-to-cart').dataset.id
             addToCart(id)
         }
-        else{
-            window.alert('Lo sentimos! Parece que ya no tenemos ese producto en inventario!')
-        }
+        
     })
 
     cartDom.addEventListener('click', function (e) {

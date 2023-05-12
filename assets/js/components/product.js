@@ -12,7 +12,7 @@ function products(products){
                     data-id="${product.id}" alt="${product.name}">
             </div>
             <div class="product-content">
-                <button type="button" class="product-btn add-to-cart data-id="${product.id}">
+                <button type="button" class="product-btn add-to-cart" data-id="${product.id}">
                     <i class='bx bx-cart-add'></i>
                 </button>
                 <span class="product-price">$${product.price}</span>
