@@ -142,8 +142,8 @@ function cart(db, printProducts) {
             const id = +e.target.closest('.article-plus').dataset.id
             addToCart(id)
         }
-        if (e.target.closest('.remove-from-cart')) {
-            const id = +e.target.closest('.remove-from-cart').dataset.id
+        if (e.target.closest('.remoove-from-cart')) {
+            const id = +e.target.closest('.remoove-from-cart').dataset.id
             deletFromCart(id)
         }
 
